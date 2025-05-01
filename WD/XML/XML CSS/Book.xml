@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="style.css"?>
+<catalog>
+    <book id="b1">
+        <title>XML Developer's Guide</title>
+        <author>John Smith</author>
+        <genre>Computer</genre>
+        <price>44.95</price>
+    </book>
+    <book id="b2">
+        <title>Learning XML</title>
+        <author>Jane Doe</author>
+        <genre>Education</genre>
+        <price>39.95</price>
+    </book>
+</catalog>

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>XML XSL Assignments</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #9B1B30, #D94B6E); /* Viva Magenta Gradient */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .container {
+      background: rgba(255, 255, 255, 0.9); /* Light background for readability */
+      padding: 40px;
+      border-radius: 20px;
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+      border: 5px solid #9B1B30; /* Viva Magenta border */
+      max-width: 900px;
+      width: 90%;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 3rem;
+      color: #333; /* Dark color for header for better visibility */
+      margin-bottom: 40px;
+      text-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Add shadow for contrast */
+      background: linear-gradient(90deg, #9B1B30, #D94B6E); /* Viva Magenta Gradient for header */
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .button-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 20px;
+      justify-items: center;
+    }
+
+    .btn {
+      width: 160px;
+      height: 50px;
+      line-height: 50px;
+      background: linear-gradient(145deg, #D94B6E, #9B1B30); /* Viva Magenta Button Gradient */
+      color: #fff;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 1.05rem;
+      border-radius: 12px;
+      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+      transition: all 0.3s ease;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .btn:hover {
+      background: linear-gradient(145deg, #D94B6E, #9B1B30); /* Hover effect for Viva Magenta */
+      transform: scale(1.05);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+    }
+
+    .card {
+      background: rgba(135, 206, 250, 0.2);
+      border: 1px solid rgba(135, 206, 250, 0.3);
+      border-radius: 16px;
+      padding: 20px 25px;
+      margin: 15px 0;
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      transition: all 0.3s ease;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    .card:hover {
+      transform: translateY(-6px);
+      background: rgba(135, 206, 250, 0.3);
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+    }
+
+    .icon {
+      font-size: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>XML XSL Assignments</h1>
+
+    <div class="button-container">
+      <a href="shop.xml" class="btn">SHOP XML</a>
+      <a href="student.xml" class="btn">STUDENT XML</a>
+    </div>
+  </div>
+
+</body>
+</html>

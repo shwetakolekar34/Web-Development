@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="student.xsl"?>
+
+<students>
+    <student>
+        <id>101</id>
+        <name>John Doe</name>
+        <age>21</age>
+        <department>Computer Science</department>
+    </student>
+    <student>
+        <id>102</id>
+        <name>Jane Smith</name>
+        <age>22</age>
+        <department>Mathematics</department>
+    </student>
+    <student>
+        <id>103</id>
+        <name>Ali Khan</name>
+        <age>20</age>
+        <department>Physics</department>
+    </student>
+</students>

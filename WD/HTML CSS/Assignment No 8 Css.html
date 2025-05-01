@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Table</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1, h2, h3 {
+            color: #2c3e50;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            border: 2px solid black;
+            padding: 15px;
+            text-align: center;
+            background-color: #fff;
+        }
+
+        th {
+            background-color: #f2f2f2;
+            color: #333;
+        }
+
+        td {
+            font-size: 14px;
+        }
+
+        th, td {
+            word-wrap: break-word;
+        }
+
+        .time-table-container {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .time-table-container h1 {
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+
+        .time-table-container h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .time-table-container h3 {
+            font-size: 20px;
+            margin-bottom: 30px;
+        }
+
+        .break {
+            background-color: #f39c12;
+            font-weight: bold;
+            color: white;
+            height: 40px;
+            text-align: center;
+        }
+
+        .empty-cell {
+            border: none;
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="time-table-container">
+    <h1>D Y Patil College of Engineering & Technology, Kolhapur</h1>
+    <h2>Department Of Computer Science & Engineering</h2>
+    <h2>TIME TABLE 2024-25 (SEM-III)</h2>
+    <h3>S.Y.-B</h3>
+
+    <table>
+        <tr>
+            <th>Day & Time</th>
+            <th>9.00 to 10.00</th> 
+            <th>10.00 to 11.00</th> 
+            <th class="empty-cell"></th>
+            <th>11.15 to 12.15</th>
+            <th>12.15 to 1.15</th> 
+            <th class="empty-cell"></th>
+            <th>2.00 to 3.00</th>
+            <th>3.00 to 4.00</th>
+        </tr>
+        <tr>
+            <th>Monday</th>
+            <td colspan="2">
+                S1-DSL(SSKokate)(Lab 8)<br>
+                S2-AOOC(KBK)(Lab 5)<br>
+                S3-TPMS(PRP)(Lab 11)<br>
+                S4-TTL(SPS)(Lab 10)<br>
+                S5-TTL(IPT)(Lab 12)<br>
+                S6-WD(SSKore)(Lab 2)
+            </td>
+            <th class="empty-cell"></th>
+            <td>DS(L)<br>SSKokate</td>
+            <td>MDM-II(L)<br>(VVM)</td>
+            <th class="empty-cell"></th>
+            <td>AT(L)<br>(KAB)</td>
+            <td>ES(L)<br>PA</td>
+        </tr>
+        <tr>
+            <th>Tuesday</th>
+            <td colspan="2">
+                S1-WD(SSKore)(Lab 2)<br>
+                S2-DSL(SSKokate)(Lab 8)<br>
+                S3-AOOC(KBK)(Lab 5)<br>
+                S4-TPMS(PRP)(Lab 11)<br>
+                S5-TTL(SPS)(Lab 10)<br>
+                S6-TTL(IPT)(Lab 12)
+            </td>
+            <th class="empty-cell"></th>
+            <td>AT(L)<br>(KAB)</td>
+            <td>DS(L)<br>SSKokate</td>
+            <th class="empty-cell"></th>
+            <td>ES(L)<br>PA</td>
+            <td>WD(L)<br>SSKore</td>
+        </tr>
+        <tr>
+            <th>Wednesday</th>
+            <td colspan="2">
+                S1-TTL(IPT)(Lab 12)<br>
+                S2-WD(SSKore)(Lab 2)<br>
+                S3-DSL(SSKokate)(Lab 8)<br>
+                S4-AOOC(KBK)(Lab 5)<br>
+                S5-TPMS(PRP)(Lab 11)<br>
+                S6-TTL(SPS)(Lab 10)
+            </td>
+            <td class="break">BREAK</td>
+            <td>AOOC(L)<br>(KBK)</td>
+            <td>MDM-II(L)<br>(VVM)</td>
+            <td class="break">BREAK</td>
+            <td>Dept. Activity</td>
+            <td>Dept. Activity</td>
+        </tr>
+        <tr>
+            <th>Thursday</th>
+            <td colspan="2">
+                S1-TTL(SPS)(Lab 10)<br>
+                S2-TTL(IPT)(Lab 12)<br>
+                S3-WD(SSKore)(Lab 2)<br>
+                S4-DSL(SSKokate)(Lab 8)<br>
+                S5-AOOC(KBK)(Lab 5)<br>
+                S6-TPMS(PRP)(Lab 11)
+            </td>
+            <th class="empty-cell"></th>
+            <td>AOOC(L)<br>(KBK)</td>
+            <td>DS(L)<br>SSKokate</td>
+            <th class="empty-cell"></th>
+            <td>AT(L)<br>(KAB)</td>
+            <td>OEC-II</td>
+        </tr>
+        <tr>
+            <th>Friday</th>
+            <td colspan="2">
+                S1-TPMS(PRP)(Lab 11)<br>
+                S2-TTL(SPS)(Lab 10)<br>
+                S3-TTL(IPT)(Lab 12)<br>
+                S4-WD(SSKore)(Lab 2)<br>
+                S5-DSL(SSKokate)(Lab 8)<br>
+                S6-AOOC(KBK)(Lab 5)
+            </td>
+            <th class="empty-cell"></th>
+            <td colspan="2">
+                S1-AOOC(KBK)(Lab 5)<br>
+                S2-TPMS(PRP)(Lab 11)<br>
+                S3-TTL(SPS)(Lab 10)<br>
+                S4-TTL(IPT)(Lab 12)<br>
+                S5-WD(SSKore)(Lab 2)<br>
+                S6-DSL(SSKokate)(Lab 8)
+            </td>
+            <th class="empty-cell"></th>
+            <td>TPMS(L)<br>(PRP)</td>
+            <td>OEC-II</td>
+        </tr>
+        <tr>
+            <th>Saturday</th>
+            <td>LL(L)<br>(ASY,RSJ,MVB)</td>
+            <td>LL(L)<br>(ASY,RSJ,MVB)</td>
+            <th class="empty-cell"></th>
+            <td>LL(L)<br>*self</td>
+            <td>LL(L)<br>*self</td>
+            <th class="empty-cell"></th>
+            <td>Dept. Activity</td>
+            <td>Dept. Activity</td>
+        </tr>
+    </table>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,45 @@
+company {
+    display: block;
+    font-family: Arial, sans-serif;
+    background-color: #f2f9ff;
+    padding: 20px;
+}
+
+employee {
+    display: block;
+    margin: 15px 0;
+    padding: 15px;
+    border: 1px solid #a4cbe3;
+    border-radius: 8px;
+    background-color: #ffffff;
+}
+
+employee::before {
+    content: attr(id);
+    display: block;
+    font-size: 14px;
+    color: #888;
+    margin-bottom: 5px;
+}
+
+name {
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    color: #003366;
+}
+
+department, position, salary, status {
+    display: block;
+    margin-top: 5px;
+    font-size: 16px;
+}
+
+status {
+    font-weight: bold;
+    color: green;
+}
+
+status:contains("Inactive") {
+    color: red;
+}

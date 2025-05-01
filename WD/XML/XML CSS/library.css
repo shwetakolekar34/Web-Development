@@ -1,0 +1,64 @@
+library {
+    display: block;
+    background-color: #eef7fa;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+section {
+    display: block;
+    margin-bottom: 30px;
+    padding: 15px;
+    background-color: #ffffff;
+    border: 2px solid #cce5ff;
+    border-radius: 8px;
+}
+
+section::before {
+    content: attr(name);
+    display: block;
+    font-size: 24px;
+    font-weight: bold;
+    color: #003366;
+    margin-bottom: 10px;
+}
+
+book {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #99ccff;
+    border-radius: 6px;
+    background-color: #f9f9f9;
+}
+
+title {
+    display: block;
+    font-size: 18px;
+    color: #00509e;
+    font-weight: bold;
+}
+
+author {
+    display: block;
+    color: #2c3e50;
+    margin-top: 5px;
+}
+
+year {
+    display: inline-block;
+    margin-top: 5px;
+    color: #6c757d;
+    font-style: italic;
+}
+
+available {
+    display: block;
+    margin-top: 8px;
+    color: green;
+    font-weight: bold;
+}
+
+available:contains('No') {
+    color: red;
+}

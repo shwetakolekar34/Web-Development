@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="shop.xsl"?>
+
+<shops>
+    <shop>
+        <id>201</id>
+        <name>Campus Bookstore</name>
+        <type>Books</type>
+        <location>North Wing</location>
+    </shop>
+    <shop>
+        <id>202</id>
+        <name>Café Mocha</name>
+        <type>Cafeteria</type>
+        <location>Ground Floor</location>
+    </shop>
+    <shop>
+        <id>203</id>
+        <name>Tech Hub</name>
+        <type>Electronics</type>
+        <location>East Wing</location>
+    </shop>
+</shops>

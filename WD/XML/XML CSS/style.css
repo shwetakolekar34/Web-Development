@@ -1,0 +1,39 @@
+catalog {
+    display: block;
+    background-color: #f0f8ff;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+book {
+    display: block;
+    margin: 15px 0;
+    border: 1px solid #aaa;
+    padding: 10px;
+    background-color: #fff;
+}
+
+title {
+    color: darkblue;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+author {
+    display: block;
+    color: darkgreen;
+    margin-top: 5px;
+}
+
+genre {
+    display: block;
+    color: darkred;
+    margin-top: 5px;
+}
+
+price {
+    display: block;
+    color: black;
+    margin-top: 5px;
+    font-weight: bold;
+}

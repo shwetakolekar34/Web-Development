@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="employees.css"?>
+<company>
+    <employee id="e101">
+        <name>Priya Sharma</name>
+        <department>HR</department>
+        <position>Recruiter</position>
+        <salary>50000</salary>
+        <status>Active</status>
+    </employee>
+    <employee id="e102">
+        <name>Ravi Kumar</name>
+        <department>IT</department>
+        <position>Software Engineer</position>
+        <salary>85000</salary>
+        <status>Inactive</status>
+    </employee>
+    <employee id="e103">
+        <name>Anjali Mehta</name>
+        <department>Finance</department>
+        <position>Accountant</position>
+        <salary>60000</salary>
+        <status>Active</status>
+    </employee>
+</company>
