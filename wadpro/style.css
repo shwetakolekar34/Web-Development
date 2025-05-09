@@ -1,0 +1,33 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa;
+}
+
+h1,
+h3 {
+    font-weight: bold;
+}
+
+.card {
+    border-radius: 15px;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+#cartSection .card {
+    background-color: #fff;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+.btn-success {
+    font-weight: bold;
+}
