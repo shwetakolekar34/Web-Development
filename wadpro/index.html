@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Foodie's Heaven | Online Food Menu</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body class="bg-light">
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">Foodie's Heaven 🍔</a>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container py-5">
+        <h1 class="text-center text-success mb-5" data-aos="fade-down">🍽️ Welcome to Foodie's Heaven 🍽️</h1>
+
+        <div class="row">
+
+            <!-- Menu Items -->
+            <div class="col-md-8" id="menuItems">
+                <div class="row">
+
+                    <!-- Burger -->
+                    <div class="col-md-6 mb-4" data-aos="fade-up">
+                        <div class="card h-100 shadow">
+                            <img src="c:\Users\Admin\Downloads\burger.jpg" class="card-img-top" alt="Burger">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Cheese Burger</h5>
+                                <p class="card-text text-success fw-bold">₹150</p>
+                                <button class="btn btn-success" onclick="addToCart('Cheese Burger', 150)">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Pizza -->
+                    <div class="col-md-6 mb-4" data-aos="fade-up">
+                        <div class="card h-100 shadow">
+                            <img src="c:\Users\Admin\Downloads\-Pizza-Horizontal" class="card-img-top" alt="Pizza">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Veg Pizza</h5>
+                                <p class="card-text text-success fw-bold">₹250</p>
+                                <button class="btn btn-success" onclick="addToCart('Veg Pizza', 250)">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Fries -->
+                    <div class="col-md-6 mb-4" data-aos="fade-up">
+                        <div class="card h-100 shadow">
+                            <img src="c:\Users\Admin\Downloads\french-fries.jpg" class="card-img-top" alt="Fries">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">French Fries</h5>
+                                <p class="card-text text-success fw-bold">₹80</p>
+                                <button class="btn btn-success" onclick="addToCart('French Fries', 80)">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Coffee -->
+                    <div class="col-md-6 mb-4" data-aos="fade-up">
+                        <div class="card h-100 shadow">
+                            <img src="c:\Users\Admin\Downloads\hot coffee.jpg" class="card-img-top" alt="Coffee">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Latte Coffee</h5>
+                                <p class="card-text text-success fw-bold">₹100</p>
+                                <button class="btn btn-success" onclick="addToCart('Latte Coffee', 100)">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Cart Section -->
+            <div class="col-md-4" id="cartSection">
+                <h3 class="text-success" data-aos="fade-left">🛒 Your Cart</h3>
+                <div class="card p-3 shadow-sm">
+                    <ul id="cartItems" class="list-group list-group-flush"></ul>
+                    <h5 class="mt-3">Total: ₹<span id="total">0</span></h5>
+                    <button class="btn btn-success mt-3 w-100" onclick="checkout()">Checkout</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Bootstrap, jQuery, AOS, Custom JS -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+
+</html>
